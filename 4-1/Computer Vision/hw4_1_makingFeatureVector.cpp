@@ -35,7 +35,7 @@ int main(void)
 	LPCWSTR path = L"C:\\Users\\pieis\\OneDrive\\바탕 화면\\컴비마지막과제_1\\컴비마지막과제_1\\*.jpg";
 	//Visual Studio의 프로젝트 환경이 유니코드이므로 위의 방법을 통해 문자열을 유니코드로 변환
 	char* filename;
-	string tmp;
+	string tmp; 
 
 	hFind = FindFirstFile(path, &FindData);
 	if (hFind == INVALID_HANDLE_VALUE) return 0;
